@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+} 
+
+/* colors */
+:root{
+  --mainColor :rgb(196, 79, 17);
+  --backgroundColor : rgb(233, 232, 232);
+  --blackColor: rgb(21, 21, 21);
+  --buttonhov: rgb(206, 115, 66);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.option{
+  padding: 0.1rem 0.4rem;
+  font-size: 0.6 rem;
+  text-align: center;
+  line-height: 1rem;
+  font-weight: 400;
+  background-color:var(--mainColor);
+  border-color: var(--mainColor);
+  color: white;
+  margin: 0;
+}
+.option:focus,
+.option:hover {
+  background: var(--buttonhov);
+  border-color: var(--buttonhov);
+  color: var(--backgroundColor);
+}
+.option.fas {
+  margin: 0 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.custom-container {
+  margin: 0.1rem 0;
+ max-width: 250px;
+ height: 2.2rem;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: auto;
+  height: 320px ;
+  object-fit: cover;
+}
+.custom-card-body {
+  height: 270px;
+}
+.desc-container{
+  height: 100px;
+  margin-bottom: 0;
+}
+.logo-img{
+  background-image: url("./screens/img/logo.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
